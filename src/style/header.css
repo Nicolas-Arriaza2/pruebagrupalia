@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centrado vertical */
+    align-items: center; /* Centrado horizontal */
+    color: white; /* Letras negras */
+    background-color: #C112F0; /* Fondo morado */
+    margin-bottom: 10px; /* Margen inferior de 10px */
+  }
+  
+  .titulo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nombre {
+    font-size: 18px;
+    padding: 5px 10px; /* Agregamos relleno */
+    color: white;
+}
+  

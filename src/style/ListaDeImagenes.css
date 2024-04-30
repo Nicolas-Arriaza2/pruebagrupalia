@@ -1,0 +1,10 @@
+.image-grid {
+    column-count: 4; /* Dividir en 4 columnas */
+    column-gap: 10px; /* Espacio entre columnas */
+  }
+  
+  .image-container {
+    margin-bottom: 10px; /* Margen inferior para las imágenes */
+  }
+  
+  

@@ -1,0 +1,38 @@
+.imagen-container {
+    position: relative;
+  }
+  
+  .imagen {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px; /* Redondear las esquinas */
+
+  }
+  
+  .opciones {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 8px; /* Ajusta el margen derecho de los puntos */
+  }
+  
+  
+  .puntos-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .punto {
+    width: 4px;
+    height: 4px;
+    background-color: white;
+    border-radius: 50%;
+    margin-bottom: 3px;
+    margin-left: 100px; /* Ajusta la posición horizontal de los puntos */
+  }
+  

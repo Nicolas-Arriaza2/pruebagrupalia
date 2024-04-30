@@ -1,0 +1,27 @@
+.menu-emergente {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo oscuro */
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .opcion {
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid white; /* Línea blanca */
+    color: white; /* Color de texto blanco */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+  }
+  
+  .opcion:last-child {
+    margin-bottom: 0; /* Elimina el margen inferior del último elemento */
+  }
+  
+  .opcion:hover {
+    text-decoration: underline;
+  }
+  
